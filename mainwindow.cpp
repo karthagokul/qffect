@@ -1,8 +1,11 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <effectmanager.h>
+#include <effectcommand.h>
 #include <QCoreApplication>
 #include <QDebug>
+#include "effects/sepia/sepiaeffect.h"
+#include "effects/mono/monoeffect.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),

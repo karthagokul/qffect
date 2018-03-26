@@ -27,12 +27,20 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     qeditor.cpp \
-    effectmanager.cpp
+    effectmanager.cpp \
+    effectcommand.cpp \
+    ieffect.cpp \
+    effects/mono/monoeffect.cpp \
+    effects/sepia/sepiaeffect.cpp
 
 HEADERS += \
         mainwindow.h \
     qeditor.h \
-    effectmanager.h
+    effectmanager.h \
+    effectcommand.h \
+    ieffect.h \
+    effects/mono/monoeffect.h \
+    effects/sepia/sepiaeffect.h
 
 FORMS += \
         mainwindow.ui

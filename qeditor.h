@@ -7,7 +7,7 @@ class QEditor : public QWidget
 {
     Q_OBJECT
 public:
-    explicit QEditor(QWidget *parent = nullptr);
+    explicit QEditor(QWidget *parent = 0);
     void loadPixmap(const QString &aFileName);
     void paintEvent(QPaintEvent *event);
     QImage getImage() const;
