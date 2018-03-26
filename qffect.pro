@@ -7,6 +7,8 @@
 QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+CONFIG += c++11
+
 
 TARGET = qffect
 TEMPLATE = app
@@ -30,6 +32,7 @@ SOURCES += \
     effectmanager.cpp \
     effectcommand.cpp \
     ieffect.cpp \
+    exif.cpp \
     effects/mono/monoeffect.cpp \
     effects/sepia/sepiaeffect.cpp
 
@@ -39,6 +42,7 @@ HEADERS += \
     effectmanager.h \
     effectcommand.h \
     ieffect.h \
+    exif.h\
     effects/mono/monoeffect.h \
     effects/sepia/sepiaeffect.h
 
